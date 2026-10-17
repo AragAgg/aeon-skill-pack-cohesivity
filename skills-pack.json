@@ -1,0 +1,20 @@
+{
+  "name": "Cohesivity",
+  "version": "1.0",
+  "description": "Build a small web app and deploy it to a live URL on Cohesivity hosting. No API keys or signups required to get started.",
+  "author": "AragAgg",
+  "license": "MIT",
+  "homepage": "https://cohesivity.ai?ref=gh-aeon",
+  "skills": [
+    {
+      "slug": "deploy-site",
+      "path": "skills/deploy-site",
+      "description": "Build a one-page app from recent signals or a brief, deploy it on a free 72-hour Cohesivity tenant, and notify the live URL, the expiry, and a claim link.",
+      "category": "dev",
+      "schedule": "workflow_dispatch",
+      "default_enabled": false,
+      "secrets_required": [],
+      "capabilities": ["external_api", "writes_external_host", "sends_notifications"]
+    }
+  ]
+}
